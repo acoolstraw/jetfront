@@ -1,0 +1,17 @@
+name: jetfront
+version: 0.1.0
+
+authors:
+  - acoolstraw <acoolstraw@protonmail.com>
+
+targets:
+  jetfront:
+    main: src/jetfront.cr
+
+dependencies:
+  raylib-cr:
+    github: sol-vin/raylib-cr
+
+crystal: 1.3.0
+
+license: MIT
